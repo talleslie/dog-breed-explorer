@@ -3,8 +3,10 @@ import AppHeader from './components/AppHeader.vue'
 </script>
 
 <template>
-  <AppHeader />
-  <RouterView />
+  <div class="min-h-screen bg-cream text-ink">
+    <AppHeader />
+    <RouterView />
+  </div>
 </template>
 
 <style scoped></style>
