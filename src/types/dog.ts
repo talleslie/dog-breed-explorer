@@ -10,3 +10,8 @@ export type ImageList = string[]
 export type BreedListResponse = DogApiResponse<BreedList>
 
 export type ImageListResponse = DogApiResponse<ImageList>
+
+export interface Breed {
+  name: string
+  imageUrl: string
+}
